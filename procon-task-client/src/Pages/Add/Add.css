@@ -1,0 +1,117 @@
+.add-currency-container {
+    width: 60%;
+
+    background-color: #fff;
+
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    margin: 15rem auto 5rem auto;
+    padding: 2rem;
+}
+
+.add-currency-container h2 {
+    text-align: center;
+}
+
+.add-currency-container label {
+    margin-bottom: 0.5rem;
+}
+
+.add-currency-container input {
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.add-currency-container input:focus {
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+
+.add-currency-container h1{
+    text-align: center;
+}
+
+.add-currency-container-form-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+
+.add-currency-container-form-btn-container {
+    text-align: center;
+}
+
+.add-currency-container-form-btn-container button,
+.add-currency-form-add-rates-container button {
+    border: 1px solid steelblue;
+    background-color: white;
+    color: steelblue;
+    text-decoration: none;
+
+    border-radius: 5px;
+    
+    width: 10rem;
+
+    padding: 0.5rem;
+
+    text-align: center;
+}
+
+.add-currency-container-form-btn-container button:hover,
+.add-currency-form-add-rates-container button:hover  {
+    background-color: steelblue;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+.add-currency-form-add-rates-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-currency-container-form-row-rates {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 1rem 0 1rem 0;
+}
+
+.add-currency-container-form-name,
+.add-currency-container-form-code,
+.add-currency-container-form-rate {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .add-currency-container-form-row,
+    .add-currency-container-form-row-rates {
+        flex-direction: column;
+        border: 1px solid steelblue;
+        border-radius: 5px;
+        padding: 1rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+
+    .add-currency-form-add-rates-container {
+        flex-direction: column;
+    }
+
+    .add-currency-form-add-rates-container button {
+        margin: 0rem auto 1rem auto;
+    }
+
+    .add-currency-container-form-name,
+    .add-currency-container-form-code,
+    .add-currency-container-form-rate {
+        width: 100%;
+    }
+}

@@ -1,0 +1,95 @@
+.currency-view-container {
+    width: 60%;
+
+    background-color: #fff;
+
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    margin: 15rem auto 5rem auto;
+    padding: 2rem;
+}
+
+
+
+.currency-view-container h1 {
+    text-align: center;
+}
+
+.currencies-container{
+    margin: 1rem;
+}
+
+.currency-rates-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.currency-rates-container-rate {
+    border: 1px solid steelblue;
+    border-radius: 5px;
+
+    padding: 0.5rem;
+    margin: 0.5rem auto 0.5rem auto;
+
+    width: 30%;
+
+    text-align: center;
+}
+
+.currency-rates-container-rate:hover {
+    cursor: pointer;
+
+    background-color: steelblue;
+    color: white;
+}
+
+.currency-rates-container-rate:focus {
+    cursor: pointer;
+
+    background-color: steelblue;
+    color: white;
+}
+
+.currency-amount {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.currency-view-btns-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 1rem;
+}
+
+.currency-view-btns-container button,
+.currency-view-btns-container a {
+    border: 1px solid steelblue;
+    background-color: white;
+    color: steelblue;
+    text-decoration: none;
+
+    border-radius: 5px;
+    
+    width: 5rem;
+
+    padding: 0.5rem;
+
+    text-align: center;
+}
+
+.currency-view-btns-container button:hover,
+.currency-view-btns-container a:hover {
+    background-color: steelblue;
+    color: white;
+
+    cursor: pointer;
+}
+
+.currency-view-result-container{
+    display: flex;
+}

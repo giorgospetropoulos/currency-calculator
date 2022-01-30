@@ -1,0 +1,16 @@
+.login-form-container {
+    width: 60%;
+
+    background-color: #fff;
+
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    margin: 15rem auto 5rem auto;
+    padding: 2rem;
+}
+
+.login-form-container h1{
+    text-align: center;
+}

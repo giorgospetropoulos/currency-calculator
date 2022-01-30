@@ -1,0 +1,62 @@
+.homepage-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.homepage-container h1,
+.homepage-container h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.homepage-container p {
+    color: #4682b4;
+}
+
+.currency-selector {
+    background-color: #fff;
+    border: 1px solid #4682b4;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    padding: 2rem;
+}
+
+.currency-selector .currencies-container{
+    margin: 0rem;
+}
+
+
+.currency-selector .currencies-container-currency {
+    border: 1px solid steelblue;
+    border-radius: 5px;
+
+    width: 10rem;
+
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem;
+
+    text-align: center;
+
+}
+
+.currency-selector .currencies-container-currency:hover {
+    background-color: steelblue;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.currency-selector a {
+    text-decoration: none;
+    color: steelblue
+}
+
+
+@media only screen and (max-width: 600px) {
+    .currencies-container-currency {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

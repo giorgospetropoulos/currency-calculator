@@ -1,0 +1,130 @@
+.edit-currency-container{
+    width: 60%;
+
+    background-color: #fff;
+    
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    margin: 15rem auto 5rem auto;
+    padding: 2rem;
+}
+
+.edit-currency-container h1{
+    text-align: center;
+}
+
+.edit-currency-main-info {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.edit-currency-btns-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.edit-currency-btns-container button,
+.edit-currency-btns-container a {
+    border: 1px solid steelblue;
+    background-color: white;
+    color: steelblue;
+    text-decoration: none;
+
+    border-radius: 5px;
+    
+    width: 10rem;
+
+    padding: 0.5rem;
+
+    text-align: center;
+}
+
+.edit-currency-btns-container button:hover,
+.edit-currency-btns-container a:hover {
+    background-color: steelblue;
+    color: white;
+
+    cursor: pointer;
+}
+
+#edit-currency-delete-btn{
+    border: 1px solid steelblue;
+    background-color: #df4759;
+    color: #fff;
+    text-decoration: none;
+
+    border-radius: 5px;
+    
+    width: 10rem;
+
+    padding: 0.5rem;
+
+    text-align: center;
+}
+
+
+.edit-currency-rates-row {
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 1px solid steelblue;
+    border-radius: 5px;
+
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+}
+
+.edit-rate-name-col,
+.edit-rate-code-col,
+.edit-rate-rate-col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.edit-currency-rates-row label {
+    margin-bottom: 0.5rem;
+}
+
+.edit-currency-rates-row input {
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.edit-currency-rates-row input:focus {
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    .edit-currency-btns-container {
+        flex-direction: column;
+    }
+
+    .edit-currency-btns-container button,
+    .edit-currency-btns-container a, 
+    #edit-currency-delete-btn {
+        margin: 0.5rem auto 0.5rem auto;
+    }
+
+    .edit-currency-rates-row {
+        flex-direction: column;
+        border: 1px solid steelblue;
+        border-radius: 5px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 1rem;
+    }
+
+    .edit-rate-name-col,
+    .edit-rate-code-col,
+    .edit-rate-rate-col {
+        padding: 0.5rem;
+        width: 100%;
+    }
+}
